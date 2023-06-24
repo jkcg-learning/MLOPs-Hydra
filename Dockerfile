@@ -5,3 +5,5 @@ COPY . .
 
 RUN pip install --upgrade pip && pip install -r requirements.txt 
 RUN pip install -e .
+
+# CMD ["sh", "sai_train"]
